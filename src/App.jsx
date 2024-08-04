@@ -7,7 +7,7 @@ const App = () => {
     <div className="w-[80vw] h-[90vh] bg-[rgba(17,25,40,0.75)] backdrop-blur-[19px] backdrop-saturate-[180%] rounded-[12px] border border-[rgba(255,255,255,0.125)] flex ">
 
       <List />
-      <Chat/>
+      <Chat />
       <Detail/>
 
     </div>

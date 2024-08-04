@@ -1,8 +1,13 @@
 import React from 'react'
+import UserInfo from './userInfo/UserInfo'
+import ChatList from './chatList/ChatList'
 
 const List = () => {
   return (
-    <div className='flex-2 border-l-[1px] border-l-[#dddddd35] border-r-[1px] border-r-[#dddddd35] h-full flex flex-col'>List</div>
+    <div className='flex-[1] flex flex-col'>
+      <UserInfo/>
+      <ChatList/>
+    </div>
   )
 }
 
